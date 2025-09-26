@@ -1,0 +1,3 @@
+## Research 
+
+This code adds a Content Security Policy (CSP) using Helmet, which acts like a security bouncer that only allows your website to load content from pre-approved sources. By default, CSP blocks all external scripts, styles, and resources unless you specifically whitelist them, preventing hackers from injecting malicious code into your site. This particular policy allows content from your own site, Google APIs, Google Fonts, and your local development server. It benefits your tech stack by adding a strong security layer that stops XSS attacks and code injection while still letting legitimate external resources work. The second part means you'd test it by trying to load something unauthorized to make sure the policy actually blocks bad content.
