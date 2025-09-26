@@ -51,5 +51,12 @@ const pollRoutes = require("./routes/pollRoutes");
 
 app.use("/api/polls", pollRoutes);
 
+const express = require('express');
+
+
+app.set('trust proxy', 1);
+
+app.use(express.json());
+
 
 module.exports = app;

@@ -1,3 +1,0 @@
-## Research 
-
-RBAC (Role-Based Access Control) is a security system that assigns permissions to users based on their job roles rather than individually, so admins get full access, managers get moderate permissions, and regular users get basic access. It's crucial in web apps because it prevents unauthorized access to sensitive features and data by ensuring people can only access what they need for their specific role. In PulseVote, this would mean admins could manage all polls and users, managers might moderate content and view analytics, while regular users could only vote and view results. If RBAC isn't implemented correctly, it can lead to privilege escalation, where someone gains more access than they're supposed to have. 
