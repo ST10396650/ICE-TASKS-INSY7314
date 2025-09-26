@@ -43,5 +43,13 @@ app.get('/', (req, res) => {
 res.send('PulseVote API running!');
 });
 
+const organisationRoutes = require("./routes/organisationRoutes");
+
+app.use("/api/organisations", organisationRoutes);
+
+const pollRoutes = require("./routes/pollRoutes");
+
+app.use("/api/polls", pollRoutes);
+
 
 module.exports = app;
