@@ -58,5 +58,10 @@ app.set('trust proxy', 1);
 
 app.use(express.json());
 
+app.get('/health', (req, res) => 
+res.status(200).json({
+    ok: true,
+    ts: Date.now()
+}));
 
 module.exports = app;

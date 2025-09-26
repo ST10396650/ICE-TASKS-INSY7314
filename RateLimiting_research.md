@@ -1,3 +1,0 @@
-## Research 
-
-Rate limiting is a way to control how many requests someone can make to a server in a certain amount of time. It's especially important for authentication endpoints to stop people from trying to guess passwords too many times. Reverse proxies or load balancers can change how a server sees the user's IP address, which can mess up rate limiting unless configured correctly. Safe defaults are basic settings good for testing, but in production, you need stricter, well-tested settings to stay secure. Understanding this helps protect your app from abuse while still letting real users log in normally.. 
